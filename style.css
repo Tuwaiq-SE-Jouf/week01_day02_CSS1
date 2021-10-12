@@ -1,0 +1,58 @@
+/* NjoudAldarbas */
+/*All headings should have a background colour of ‘orangered’.
+All headings should be centered.*/
+h3{
+    background-color: orangered;
+    text-align: center;
+}
+/*The text in all paragraphs should be maroon and Times New Roman.*/
+p {
+    font-family: 'Times New Roman';
+    color:  maroon;
+}
+/* h3 elements should be chocolate in color except for the
+heading that contains the text “The info below is NOT mine…. ” red */
+
+.h3choco {
+    color: chocolate;
+}
+
+#redText {
+    color: red;
+}
+/*image should be centered.*/
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;}
+
+
+/*margin of 2% around the entire page.*/
+    body{
+        margin: 2%;
+    }
+    
+
+/* At the bottom of the page add a 3x2 table with the headings “Web 1.0”, “Web 2.0”
+and “Web 3.0”. Add a sentence that describes the key characteristics of each version
+of the web. Make the column headings of this table centered and red, and the rest
+of the content purple.
+Centre the table on the page. */
+    table{
+        border:  .5px solid gray;
+    margin: auto;
+        } 
+
+    th{
+        text-align: center;
+        color: red;
+        padding:50px;
+    }
+    td{
+        text-align: center;
+        color: purple;
+        border: 1px solid gray;
+        padding: 50px;
+    }
+    
