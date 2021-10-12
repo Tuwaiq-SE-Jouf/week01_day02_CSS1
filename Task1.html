@@ -6,10 +6,21 @@
 
 
 <head>
+	<link rel="stylesheet" href="ftoon.css">
 	<title>My first web page</title>
 </head>
 
 <body>
+	<style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+        }
+        </style> 
+
 	<h1>My first web page</h1>
 	<img src="http://hyperiondev.com/static/moocadmin/assets/img/hyperionLogo.png">
 
@@ -21,7 +32,7 @@
 	</a>
 	<br>
 
-	<h3>The info below is NOT mine. It is from
+	<h3 id="h3red">The info below is NOT mine. It is from
 		<a href="https://blog.hyperiondev.com/index.php/2018/11/05/heres-know-web-3-0/">here
 		</a>
 	</h3>
@@ -63,7 +74,25 @@
 
 	<p>Interested in trying your hand at web development? Hyperiondev is a great place to start. Schedule a call with us and our mentors will give you great advice on how you can get started.
 	</p>
-
+<table style="width:100%">
+        
+        <tr class="gt" style="color: purple;">
+          <td>Web 1.0</td>
+          <td>wed 2.0</td>		
+          <td>wed3.0</td>
+        </tr>
+        <tr class="gt" style="color:red;" >
+          <td>5</td>
+          <td>22</td>		
+          <td>150</td>
+        </tr>
+		<tr class="gt" style="color:red;" >
+			<td>5</td>
+			<td>22</td>		
+			<td>150</td>
+		  </tr>
+        
+      </table>
 	<a href="#theHeading">Some text here
 	</a>
 </body>
