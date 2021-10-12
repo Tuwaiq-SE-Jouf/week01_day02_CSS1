@@ -1,0 +1,52 @@
+h1 {
+background-color: orange;
+text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+    color: maroon;
+
+}
+
+#R{
+   color: red; 
+}
+#Bb{
+  background-color: orange;
+    color: chocolate;
+    text-align: center;
+}
+#Aaa{
+  background-color: orange;
+  text-align: center;
+}
+img{
+ 
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+  body {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left:2%;
+    color:red;
+    
+  }
+
+  table, th {  
+    border: 1px solid #ddd;
+    color: red;
+    text-align: center;
+  
+  }
+  table, td {  
+    color: purple;
+    text-align: center;
+  
+  }
