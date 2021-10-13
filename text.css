@@ -1,0 +1,48 @@
+body{
+    
+        background-color:  orange ;
+    }
+    div ul h3 {border color: red;}
+   div {
+       text-align: center ;
+
+    }
+    h1 { text-align: center ;}
+    h2 { text-align: center ;}
+    h3 { text-align: center ;}
+
+    p{
+        color: maroon;
+        background-position: center; 
+   font-family:'Times New Roman', Times, serif;
+
+    }
+    img{
+        margin: 0   38% ;
+         
+    }
+     p { margin-bottom: 2% ;}
+    
+    
+          /*<!-- educationfactorys.com -->*/
+        h3 { color:chocolate;}
+        table { border: 1px solid;
+            
+            margin: 0  38%;
+        width: 3px;
+    
+        
+            height: 2px; }
+            th,td { border: 1px solid;
+            }
+            th { background-color:red;} 
+
+             
+            } 
+           
+            
+        
+
+
+    
+
